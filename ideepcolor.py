@@ -2,8 +2,8 @@ from __future__ import print_function
 import sys
 import argparse
 import qdarkstyle
-from PyQt4.QtGui import QApplication, QIcon
-from PyQt4.QtCore import Qt
+from PyQt5.QtGui import QApplication, QIcon
+from PyQt5.QtCore import Qt
 from ui import gui_design
 from data import colorize_image as CI
 

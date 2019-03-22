@@ -7,7 +7,7 @@ try:
 except ImportError:
     QString = str
 from .ui_control import UIControl
-
+from PyQt5 import QtWidgets
 from data import lab_gamut
 from skimage import color
 import os

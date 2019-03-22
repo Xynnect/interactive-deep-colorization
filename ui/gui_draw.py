@@ -1,9 +1,9 @@
 import numpy as np
 import cv2
-from PyQt4.QtCore import *
-from PyQt4.QtGui import *
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
 try:
-    from PyQt4.QtCore import QString
+    from PyQt5.QtCore import QString
 except ImportError:
     QString = str
 from .ui_control import UIControl

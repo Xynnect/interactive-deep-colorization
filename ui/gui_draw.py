@@ -18,9 +18,9 @@ import glob
 import sys
 
 
-class GUIDraw(QWidgets):
+class GUIDraw(QWidget):
     def __init__(self, model, dist_model=None, load_size=256, win_size=512):
-        QWidgets.__init__(self)
+        QWidget.__init__(self)
         self.model = None
         self.image_file = None
         self.pos = None
